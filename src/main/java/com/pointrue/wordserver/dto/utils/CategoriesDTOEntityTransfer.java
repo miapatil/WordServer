@@ -1,11 +1,8 @@
 package com.pointrue.wordserver.dto.utils;
 
 import com.pointrue.wordserver.dto.CategoriesDTO;
-import com.pointrue.wordserver.dto.WordsDTO;
 import com.pointrue.wordserver.model.WordsCategoryModel;
-import com.pointrue.wordserver.model.WordsModel;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
