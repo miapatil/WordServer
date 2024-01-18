@@ -26,12 +26,12 @@ public class WordsController {
     }
 
 //    @GetMapping("/words/{category}")
-//    @ResponseBody
-    public List<WordsDTO> getWordsListId(@RequestParam(name = "category") String id){
-        System.out.println(id);
-        return wordsModelService.getAllWords();
-
-    }
+////    @ResponseBody
+//    public List<WordsDTO> getWordsListId(@RequestParam(name = "category") String id){
+//        System.out.println(id);
+//        return wordsModelService.getAllWords();
+//
+//    }
 
     @GetMapping("/words/{category}")
     @ResponseBody
